@@ -1,0 +1,29 @@
+// Simple .NET C# Program
+
+using System;
+
+namespace HelloWorldApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Print a message
+            Console.WriteLine("Hello, World!");
+
+            // Take user input
+            Console.Write("Enter your name: ");
+            string name = Console.ReadLine();
+
+            // Greet the user
+            Console.WriteLine($"Welcome, {name}!");
+
+            // Simple math example
+            int a = 10;
+            int b = 5;
+            int sum = a + b;
+
+            Console.WriteLine($"The sum of {a} and {b} is {sum}");
+        }
+    }
+}
