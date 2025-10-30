@@ -1,0 +1,12 @@
+public class HelloWorld {
+    public static void main(String[] args) {
+        // Print a message
+        System.out.println("Hello, World!");
+
+        // Declare variables
+        int a = 10;
+        int b = 5;
+        int sum = a + b;
+
+        // Print result
+        System.out.println("The sum of " + a + " and " + b + " is " + sum);
